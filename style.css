@@ -1,0 +1,32 @@
+*{
+    background-color: dimgray;
+}
+img{
+    border: solid 10px #FFFFFF;
+    width: 100px;
+    height: 100px;
+
+}
+.light-box{
+    position: fixed;
+    max-width: 768px;
+    max-height: calc(100%-16px*2);
+    inset: 0;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 16px;
+    overflow: auto;
+}
+.light-box_button{
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    margin-top: 16px;
+    padding: 6px 32px;
+    text-align: center;
+    font-size: 16px;
+    background: #FFFFFF;
+    color: #333;
+    border: 1px solid currentColor;
+
+}
